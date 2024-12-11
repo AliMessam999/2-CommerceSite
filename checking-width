@@ -1,0 +1,10 @@
+<h1>Check Screen Width</h1>
+        <p id="screen-width"></p>
+
+        <script>
+            // Get the screen width
+            const screenWidth = window.innerWidth;
+
+            // Display it in the HTML
+            document.getElementById('screen-width').textContent = "Screen width is: " + screenHeight + "px";
+        </script>
